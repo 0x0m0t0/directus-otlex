@@ -4,6 +4,7 @@
   "description": "",
   "scripts": {
     "start": "npx directus start",
+    "build": "npx directus bootstrap",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
