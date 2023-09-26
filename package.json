@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@pixielabs/directus-extension-blurhash": "^1.0.0",
+    "cloudinary": "^1.41.0",
     "directus": "^10.6.3",
     "pg": "^8.11.3"
   },
