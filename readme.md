@@ -21,18 +21,48 @@ npm i
 npm run start
 ```
 
-## API ROUTER
+## API ROUTES
 
-GET ALL BOOKS
+### GET ALL BOOKS
 
 ```
 /items/books
 ```
 
-GET BOOKS and related fields (each \* goes one relation deeper)
+### GET BOOKS and related fields (each \* goes one relation deeper)
 
 ```
 /items/books?fields=*.*.*.*
+```
+
+### POST BOOKS
+
+- Authorization
+
+```
+/items/books
+```
+
+```json
+{
+  "Name": "Book of Books",
+  "status": "published",
+  "Authors": [
+    {
+      "authors_id": {
+        "name": "Michael The Writer",
+        "description": "A writer amongst writers"
+      }
+    }
+  ],
+  "Users": [
+    {
+      "users_id": {
+        "id": 1
+      }
+    }
+  ]
+}
 ```
 
 ## Context
