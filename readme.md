@@ -50,15 +50,15 @@ npm run start
   "last_page": "/settings/roles/653925a9-970e-487a-bfc0-ab6c96affcdc"
 }
 ```
+
+
 ### GET Users
 ```
 /users
 ```
 
 
-```json
 
-```
 
 ### GET ALL BOOKS
 
